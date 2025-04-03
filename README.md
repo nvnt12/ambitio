@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Hero Section - Frontend Developer Intern Assignment
 
-## Getting Started
+## 📌 Overview
+This project is a hero section implementation based on the provided Figma design. The goal was to accurately translate the design into code while ensuring responsiveness and adding smooth animations/interactions.
 
-First, run the development server:
+## 🛠️ Tech Stack
+- **Next.js / React.js** for development
+- **Tailwind CSS** for styling
+- **TypeScript** for type safety and prop validation
+- **Framer Motion** for animations
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Approach
+1. **Component-Based Structure:**
+   - Divided the page into logical sections.
+   - Created separate components for reusable elements to maintain clean and modular code.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Development Process:**
+   - Built the desktop version first for accurate design implementation.
+   - Adjusted responsiveness for different screen sizes (tablet & mobile).
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. **Best Practices:**
+   - Used **mapping** for repeating elements instead of hardcoding.
+   - Avoided redundant code by following **DRY (Don't Repeat Yourself)** principles.
+   - Ensured **TypeScript validation** on props for better maintainability.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+4. **Animations & Interactions:**
+   - Used **Framer Motion** to add smooth animations to the **stats section**, making the numbers animate dynamically.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📱 Responsiveness
+The hero section is fully responsive and adapts seamlessly across different screen sizes, ensuring a great user experience on all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone [repository-link]
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd project-folder
+   ```
+3. Install dependencies:
+   ```bash
+   npm install  # or yarn install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev  # or yarn dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## Learn More
+## 🔗 Live Demo
+If deployed, add your live demo link here.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 📝 Additional Notes
+- Followed accessibility best practices.
+- Ensured code readability and maintainability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📬 Contact
+If you have any questions, feel free to reach out!
