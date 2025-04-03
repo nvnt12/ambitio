@@ -50,7 +50,7 @@ export default function HeroSectionGrid() {
 
   return (
     <div className="relative mt-20">
-      <div className="flex flex-wrap justify-center gap-5 mx-auto mask-[linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]">
+      <div className="flex flex-wrap overflow-clip justify-center gap-5 mx-auto mask-[linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]">
         {content.map((row, rowIndex) => (
           <div key={rowIndex} className="flex justify-center gap-5 mx-auto flex-nowrap">
             {row.map((item, index) => (
